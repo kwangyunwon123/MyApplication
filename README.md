@@ -1,3 +1,5 @@
+Using the above application, if you want to purchase a lens, you can check your current vision through a voice recognition test, search for a lens store near or wherever you want, and experience the same as wearing the lens store's products through facial recognition function.
+You can handle everything about the lens purchase in one piece. If this application and lens specialty store are supported with purchase and delivery service on contract, I believe that activation of the lens market and convenience of users will be increased.
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
