@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".CameraActivity">
+
+    <org.opencv.android.JavaCameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        opencv:camera_id="any"
+        android:visibility="gone"
+        android:id="@+id/activity_surface_view"
+        />
+
+    <RelativeLayout
+        android:layout_width="193dp"
+        android:layout_height="wrap_content">
+
+        <SurfaceView
+            android:id="@+id/camera_preview_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="250dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:focusableInTouchMode="true"
+
+            android:src="@drawable/button_1" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:focusableInTouchMode="true"
+            android:src="@drawable/button_3" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginRight="20dp"
+            android:background="@android:color/transparent"
+            android:focusableInTouchMode="true"
+            android:src="@drawable/button_2" />
+
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="right|center_vertical"
+        android:focusableInTouchMode="true"
+        android:background="@android:color/transparent"
+        android:src="@drawable/capture"
+        android:layout_marginRight="40dp"/>
+</FrameLayout>
+

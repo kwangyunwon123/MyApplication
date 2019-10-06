@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorDark"
+    >
+
+    <TextView
+        android:id="@+id/produce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="160dp"
+        android:layout_marginRight="78dp"
+        android:fontFamily="@font/font_4_1"
+        android:text="Produce By "
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/start_image"
+        android:layout_width="347dp"
+        android:layout_height="72dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginRight="31dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/start_main" />
+
+    <TextView
+        android:id="@+id/start_text"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/start_image"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="85dp"
+        android:fontFamily="@font/font_4_1"
+        android:gravity="center"
+        android:text="  Sensitive Children."
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp" />
+
+</RelativeLayout>

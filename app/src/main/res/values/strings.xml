@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">예민한 eye들</string>
+    <string name="title_home">Home</string>
+    <string name="title_test">Test</string>
+    <string name="title_map">Map</string>
+    <string name="title_lens">Lens</string>
+    <string name="test">테스트 시작하기</string>
+</resources>

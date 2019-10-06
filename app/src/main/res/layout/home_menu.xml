@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/colorDark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:fontFamily="@font/font_3"
+        android:gravity="center"
+        android:text="공개 소프트웨어     개발자 대회 출품작"
+        android:textColor="@color/colorWhite"
+        android:textSize="50dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_4_1"
+        android:text="Park jun soo"
+        android:textColor="@color/colorYellow"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_4_1"
+        android:text="Won kwang yun"
+        android:textColor="@color/colorYellow"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_4_1"
+        android:text="Son ye min"
+        android:textColor="@color/colorYellow"
+        android:textSize="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font_4_1"
+        android:text="Gwak chae hun"
+        android:textColor="@color/colorYellow"
+        android:textSize="30dp" />
+
+
+
+</LinearLayout>
